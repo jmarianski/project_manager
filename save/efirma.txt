@@ -1,0 +1,52 @@
+private/dbchangelog/2016-10-(18-22) - dbchangelog.sql
+private/dbchangelog/2016-10-25 admins_qa i admins_qa_categories.sql
+private/dbchangelog/2016-10-26 RF-1028 fields.sql
+private/dbchangelog/2016-11-16 translations.sql
+private/dbchangelog/2016-11-17 admins_qa & cat.sql
+private/dbchangelog/2016-11-2 pdf_forms i pdf_form_pages.sql
+private/dbchangelog/2016-11-25 workflows i activity_results.sql
+private/dbchangelog/2016-11-29 pdf_forms.sql
+private/dbchangelog/2016-11-3 pdf_form_fields rf1125 niedokonczony.sql
+private/dbchangelog/2016-11-7 admin_permissions.sql
+private/dbchangelog/2016-12-17 brakujace tlumaczenia.sql
+private/dbchangelog/2016-12-20 pdf_forms.sql
+private/dbchangelog/2016-12-30 translations.sql
+private/dbchangelog/2016-12-9 zmienne jêzykowe.sql
+private/dbchangelog/2017-01-03 new tables (TESTS).sql
+private/dbchangelog/2017-01-16 ap_invoices.sql
+private/dbchangelog/2017-02-03 translaion.sql
+private/dbchangelog/2017-03-18 translations.sql
+private/dbchangelog/2017-03-20 pdf_form_fields od nowa.sql
+private/dbchangelog/modyfikacje do bazy danych.sql
+private/dbchangelog/2017-03-21 rf 1224.sql
+private/dbchangelog/2017-03-28 EFREMTID braintree.sql
+private/dbchangelog/2017-04-04 pdf_forms_rf0002 2017.sql
+private/dbchangelog/2017-04-24 nexgentel telefony i rozmowy.sql
+private/dbchangelog/2017-05-09 rr0002.sql
+private/dbchangelog/2017-05-23 JAVASCRIPT translations .sql
+private/dbchangelog/2017-05-25 translations.sql
+private/dbchangelog/2017-06-02 product groups.sql
+private/dbchangelog/2017-06-06 admin_email_templates.sql
+private/dbchangelog/2017-06-10.sql
+private/dbchangelog/2017-06-26 rr0002 translations etc.sql
+private/dbchangelog/2017-07-07 poprawki5.sql
+private/dbchangelog/2017-07-25 poprawki.sql
+private/dbchangelog/2017-08-03 product_groups.sql
+private/dbchangelog/2017-08-03 translate.sql
+private/sql/20161025olo_changes.sql
+private/sql/20161030olo_changes.sql
+private/sql/20161101olo.sql
+private/sql/20161106olo.sql
+private/sql/20161107olo.sql
+private/sql/20161119olo.sql
+private/sql/20161215olo.sql
+private/sql/20161228olo.sql
+private/sql/20170110olo.sql
+private/sql/20170111olo.sql
+private/sql/20170129olo.sql
+private/sql/20170212olo.sql
+private/sql/20170214olo.sql
+private/sql/20170323olo.sql
+private/sql/20170415olo.sql
+private/sql/20170421olo.sql
+private/sql/test.sql
