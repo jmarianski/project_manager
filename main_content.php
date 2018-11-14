@@ -21,8 +21,18 @@
 			echo "Oznaczam: ".$_GET["mark"]."<BR>\n";
 			$db->markAsSaved($_GET["mark"]);
 		}
+		if($_GET["pull"]!=null) {
+			echo "Pulluję!<BR>\n";
+			echo implode("<BR>", $git->run_default_command("git pull"))."<BR>"; 
+		}
+		if($_GET["custom"]!=null) {
+			echo "Customowa komenda: ".$_GET["custom"]."<BR>\n";
+			echo implode("<BR>", $git->run_default_command($_GET["custom"]))."<BR>"; 
+		}
 		echo "<h1>".$_GET["project"]."</h1>";
 		echo "<a href=\"?project=".$_GET["project"]."\">Odśwież</a><BR>";
+		echo "<a href=\"?project=".$_GET["project"]."&pull=true\">Pullnij</a><BR>";
+		echo "<form><input type=hidden name='project' value='".$_GET["project"]."'><input name='custom' placeholder='customowa komenda'></form>";
 		echo "<a href=\"?content=".$_GET["project"].".adframe.no\">Przejdź do projektu</a><BR>";
 		passthru("git fetch --all"); 
 		echo "<BR>";
