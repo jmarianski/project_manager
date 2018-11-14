@@ -30,6 +30,7 @@
 			echo implode("<BR>", $git->run_default_command($_GET["custom"]))."<BR>"; 
 		}
 		echo "<h1>".$_GET["project"]."</h1>";
+		echo "<a href=\"index.php\">Wróć do projektów</a><BR>";
 		echo "<a href=\"?project=".$_GET["project"]."\">Odśwież</a><BR>";
 		echo "<a href=\"?project=".$_GET["project"]."&pull=true\">Pullnij</a><BR>";
 		echo "<form><input type=hidden name='project' value='".$_GET["project"]."'><input name='custom' placeholder='customowa komenda'></form>";
